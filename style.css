@@ -1,0 +1,171 @@
+header{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+
+
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+.hero-text{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+    
+ 
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid rgb(212, 164, 74);;
+}
+
+.stiky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 2px 2px #eeeeee;
+    z-index: 9999;
+  
+
+}
+.stiky .main-nav li a:link,
+.stiky .main-nav li a:visited{
+    padding: 16px 0;
+    color: #fff;
+}
+
+.logo{
+
+    height: 70px;
+    width: auto;
+    float: left;
+    margin-top: 35px;
+      background-image: linear-gradient(to right, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%);
+	color: transparent;
+	-webkit-background-clip: text;
+}
+
+section{
+    padding: 80px 0;
+}
+h2{
+   font-weight: 300;
+   text-transform: uppercase;
+   font-size: 180%;
+   word-spacing: 2px;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   letter-spacing: 1px;
+}
+h2::after{
+    display: block;
+    height: 2px;
+    background-color: #e62222;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+.cat{
+    text-align: center;
+    background-color:  rgb(212, 164, 74);
+    border: 2px solid black;
+    border-radius: 30px;
+    width:76.5%;
+    height: 100%;
+    background-size: cover;
+    box-shadow: 5px 8px 5px #888;
+    background-position: center;
+    transition: all 1.2s;
+    
+}
+.cat:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%);
+}
+.img{
+    width: 276px;
+    height: 250px;
+    border-radius: 30px;
+}
+a{
+    letter-spacing: 2px;
+    font-size: 160%;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+   
+}
+.works{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.522), rgba(0, 0, 0, 0.542)), url('https://cdn.pixabay.com/photo/2017/03/12/17/54/quiz-2137664_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+h3{
+        font-weight: 300;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+.about{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+.mail{
+    font-size: 120%;
+    font-weight: 300;
+
+}
+.mail:hover,
+.mail:active{
+    color: crimson;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    font-size: 80%;
+}
+footer p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+}
+.banner3{
+    margin-left: 20px;
+}
+
